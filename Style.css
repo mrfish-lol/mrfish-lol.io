@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{ 
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+
+}
+
+ .container {
+  max-width: 120px;
+  margin: 0 auto;
+ }
+
+ .header {
+  background: linear-gradient(
+      rgba(92, 142, 138, 0.7),
+      rgba(97, 63, 63, 0.7)),
+      url(images/fondo\ proyecto.jpg) center bottom no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  display: flex;
+  align-items: center; 
+}
+
+
+.menu{
+position: absolute;
+top: 0%;
+left: 0;
+right: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logo{
+  color: rgb(212, 215, 122);
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+menu .navbar ul li{
+  font-size: 18px;
+  padding: 28px;
+  color: rgb(245, 206, 155);
+  font-weight: 600;
+}
+
+
+.menu .navbar ul li a:hover{
+
+color: rgb(217, 251, 251);
+
+}
+
+#menu {
+  display: none;
+}
+
+.menu-icon{
+  width: 25px;
+}
+
+.menu label{
+  cursor: pointer;
+  display: none;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.header-content h1{
+  font-size: 75px;
+  line-height: 80px;
+  color: rgb(232, 226, 219);
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.header-content p {
+  font-size: 16px;
+  color: rgb(224, 255, 255);
+  padding: 0 250px;
+margin-bottom: 25px;
+}
+
+.btm-1 {
+  display: inline-block;
+  padding: 11px 35px;
+  background-color: rgb(232, 209, 152);
+  color: rgba(139, 128, 115, 0.478);
+  text-transform: uppercase;
+}
+
+.btm-1:hover {
+  background-color: rgb(249, 213, 129);
+}
+
+
+
+
